@@ -11,10 +11,20 @@ html {
 img{
     max-width: 100%;
 }
-.sonne{
+h1 {
     display: flex;
-    align-items: end;
+    justify-content: center;
+    color: #3A4F52;
+    font-size: 2rem;
+    margin-top: 3vh;
 }
-.boden{
+.sonne {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.boden {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-}

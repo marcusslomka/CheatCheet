@@ -27,4 +27,27 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
+.Rrechts {
+    animation: rasenmaeher_bewegen_r 20s linear infinite alternate;
+}
+.Rlinks{
+    animation: rasenmaeher_bewegen_l 20s linear infinite alternate;
+} 
 
+@keyframes rasenmaeher_bewegen_r {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    
+} 
+@keyframes rasenmaeher_bewegen_l {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
